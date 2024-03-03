@@ -1,0 +1,269 @@
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/plus-jakarta-sans-v8-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* plus-jakarta-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/plus-jakarta-sans-v8-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* plus-jakarta-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/plus-jakarta-sans-v8-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* plus-jakarta-sans-800 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/plus-jakarta-sans-v8-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+html{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 500;
+    color: #102746;
+    zoom: .9;
+    width: 1440px;
+    margin: 0;
+    background: linear-gradient(to bottom, rgba(212, 207, 198, 1), white);
+    height: 1164px;
+}
+
+.wrapper{
+    margin-left: 94px;
+}
+
+/* Header styles start */
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 28px;
+    height: 132px;
+}
+.header__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header__logo-pic{
+    width: 336px;
+    height: 132px;
+}
+
+.header__list{
+    font-size: 24px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 34px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    list-style-type: none;
+    background: url(../img/Rectangle\ 2.png) no-repeat;
+    padding-left: 32px;
+    object-fit: cover;
+    padding-right: 34px;
+    margin-left: 100px;
+    margin-right: 16px;
+
+}
+
+.header__item{
+    margin-right: 20px;
+    margin-left: 20px;
+    white-space: nowrap
+}
+
+.header__item1{
+    margin-right: 20px;
+}
+
+.header__item:last-child{
+    margin-right: 0;
+}
+
+.header__link{
+    line-height: 32px;
+    color: rgba(219, 190, 255, 1);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.header__link-slash{
+    line-height: 32px;
+    color: rgba(219, 190, 255, 1);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.header__link:hover, .header__link:focus, .header__link:active{
+    opacity: .75;
+}
+
+
+/* Header styles end */
+
+
+/* Contacts styles start*/
+
+.info__wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.contacts{
+    height: 900px;
+}
+
+.contacts__wrapper{
+    margin: 260px 57px 0 57px;
+}
+
+.contacts__title{
+    width: 535px;
+    height: 90px;
+    font-size: 48px; 
+    font-weight: 600; 
+    text-align: center; 
+    color: #d4cfc6;
+    background: url(../img__cont/title__bg.png) no-repeat;
+    padding: 15px 48px;
+    margin: 0 0 65px 395px;
+}
+
+.con-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 300px;
+    height: 78px;
+    margin-bottom: 62px;
+}
+
+.con-icon{
+    height: 78px;
+    margin-right: 20px;
+}
+
+.con-subtitle{
+    font-size: 64px; 
+    font-weight: 700; 
+    text-align: left; 
+    color: #75716d;
+    height: 78px;
+    margin: 0;
+}
+
+.map{
+    border: 5px solid #6d6b6b;
+}
+
+/* Contacts styles end*/
+
+
+/* Footer styles start*/
+
+.footer__line{
+    margin-bottom: 32px;
+}
+
+.footer__title{
+    font-size: 36px; 
+    font-weight: 500; 
+    text-align: center; 
+    color: #d1b6f2;
+    background: url(../img/find_us-bg.png) no-repeat;
+    width: 212px;
+    height: 58px;
+    padding: 6px 3px;
+    margin-left: 617px;
+}
+.footer__social{
+    margin-left: 557px;
+    margin-top: 22px;
+}
+
+.footer-link{
+    height: 100px;
+    width: 100px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.footer-link:last-child{
+    margin-right: 0;
+}
+
+/* Footer styles end*/
+
+
+/* Java Script styles start*/
+
+.bad_header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+    height: 132px;
+    z-index: 1;
+}
+
+.bad_wrapper{
+    margin: 10px;
+}
+
+.bad_header__logo-pic{
+    width: 200px;
+}
+
+.bad_header__list{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 2px;
+    padding-bottom: 8px;
+    list-style-type: none;
+    background: url(../img/Rectangle_2_js.png) no-repeat;
+    padding-left: 24px;
+    object-fit: cover;
+    padding-right: 23px;
+    margin: 20px 0 0 250px;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+/* Java Script styles end*/
+
